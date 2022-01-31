@@ -3,7 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App"> Weather App
+    <div className="App"> 
+    <div className = " container">
+    
+    Weather App
         <footer>
           This project was coded by Flavia Lisboa and is {" "}
       
@@ -16,6 +19,8 @@ function App() {
         </a>
      </footer>
     </div>
+    </div>
+    
   );
 }
 
