@@ -4,18 +4,17 @@ import './App.css';
 function App() {
   return (
     <div className="App"> Weather App
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <footer>
+          This project was coded by Flavia Lisboa and is {" "}
+      
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/lisboafla/react-weather-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          open-sourced on GitHub
         </a>
-   
+     </footer>
     </div>
   );
 }
