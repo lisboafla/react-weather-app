@@ -10,10 +10,11 @@ export default function Weather() {
             <input type = "search"
              placeholder= "Search for a city..." 
             className= "form-control"
+            autoFocus= "on"
             />
             </div>
             <div className= "col-3">
-            < input type= "submit" value= "search" className= "btn btn-primary" />
+            < input type= "submit" value= "search" className= "btn btn-primary w-100" />
             </div>
             </div>
          </form>
@@ -23,12 +24,20 @@ export default function Weather() {
              <li> Mostly Cloudy</li>
         
         </ul>
-        <div className= "Row">
+        <div className= "Row-mt-3">
        <div className= " col-6">
+           <div className = "clearfix">
            <img
            src= "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-           alt= "Mostly Cloudy" />
-           6c
+           alt= "Mostly Cloudy"
+           className= "float-left"
+            />
+
+        
+            <span className ="temperature"> 6 </span>
+             <span className ="units"> °C </span>
+          
+         </div>
        </div>
        <div className =" col-6">
            <ul>
