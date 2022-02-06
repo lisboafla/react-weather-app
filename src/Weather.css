@@ -41,6 +41,7 @@ padding: 0;
         height: 64px;
         margin-right: 10px;
         display: inline-block;
+        width: 64px;
 
           }
 
@@ -64,7 +65,7 @@ padding: 0;
         color: rgb(33, 33, 33);
         position: relative;
         top: -32px;
-        margin-right: 5px;
+        margin-left: 0px;
          color: rgb(33, 33, 33);
          line-height: 1;
 
