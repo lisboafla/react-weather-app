@@ -15,14 +15,13 @@ export default function Weather(props) {
            temperature:response.data.main.temp,
            humidity: response.data.main.humidity,
            wind: response.data.wind.speed,
-           city: "Wednesday 07:00",
-           date:response.data
-       });
-
+           city: response.data.name,
+           date:"Wednesday 07:00"
+            });
       
     }
 
-    if (weatherData.ready){  
+    if (weatherData.ready) {  
          return (
         <div className = "Weather"> 
         <form> 
@@ -82,4 +81,4 @@ export default function Weather(props) {
     return "Loading...";
 
       }
-    }
+     }
