@@ -3,8 +3,8 @@
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
-  color: #f7aa00;
-  background: #acdcee;
+  color:  #40a8c4;
+  background:  #f9f9f9;
 }
 
 .Weather h1 {
@@ -12,7 +12,7 @@
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
-  color: #f7aa00;
+  color: #40a8c4;
 }
 
 .Weather ul {
@@ -26,12 +26,12 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
-  color: #f7aa00;
+  color: #40a8c4;
 }
 
 .Weather .temperature {
   font-weight: bold;
-  color: #f7aa00;
+  color: #40a8c4;
   font-size: 58px;
   line-height: 64px;
   margin-left: 5px;
