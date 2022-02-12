@@ -18,6 +18,14 @@ function App() {
         >
           open-sourced on GitHub
         </a>
+         and{" "}
+          <a
+            href="https://focused-swanson-398988.netlify.app//"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
      </footer>
     </div>
     </div>
